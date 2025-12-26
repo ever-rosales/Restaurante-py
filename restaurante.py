@@ -24,9 +24,11 @@ bebida = int(input("Selecciona una opcion: "))
 #conviertiendo el valor obtenido a valor entero
 comidaIndice = int(comida)-1
 bebidaIndice = int(bebida)-1
-precioComida = {comidaPrecios[comidaIndice]}
-precioBebida = {bebidasPrecios[bebidaIndice]}
-print("Preparando ", {comidaLista[comidaIndice]}, precioComida )
-print("Preparando ", {bebidasLista[bebidaIndice]}, precioBebida)
 
+comidaPrecio = int(comida)-1
+bebidaPrecio = int(bebida)-1
+
+print("****CUENTA****")
+print("**** ", {comidaLista[comidaIndice]}, " $", {comidaPrecios[comidaPrecio]})
+print("**** ", {bebidasLista[bebidaIndice]}, " $", {bebidasPrecios[bebidaPrecio]})
 
